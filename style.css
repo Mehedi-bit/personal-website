@@ -1,0 +1,39 @@
+.container{
+    background-image: header-bg.png;
+    background-size: cover;
+    background-attachment: fixed;
+    float: left;
+}
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body p{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.half-width h3{
+    line-height: 2%;
+}
+.name{
+    color: rgb(233, 88, 83);
+}
+.button_like{
+    color: white;
+    background-color: rgb(233, 88, 83);
+    padding: 6px 20px 6px 20px;
+    text-decoration: none;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
