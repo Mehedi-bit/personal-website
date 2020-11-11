@@ -45,9 +45,63 @@ h3{
 }
 section{
     height: 500px;
+    padding-bottom: 5px;
 }
 .middle-banner{
     background-image: url("biography-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.latest-work-banner{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-work h2{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+#work-1,#work-2,#work-3{
+    width: 25%;
+    margin-left: 6%;
+}
+.work-image{
+    float: left;
+
+}
+.client-say{
+    text-align: center;
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}    
+.client-say h1{
+    font-size: 40px;
+}
+.client-say p{
+    line-height: 28px;
+}
+.review{
+    
+    margin: 4% 25% 4% 25%;
+    
+}
+.email{
+    background-color: rgb(197, 36, 116);
+    color: white;
+    margin: 2% 37% 2% 37%;
+    padding: 1px 8px 1px 8px;
+    border-radius: 5px;
+
+}
+.email p{
+    font-size: medium;
+    line-height: 5px;
+}
+footer{
+    font-size: small;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
